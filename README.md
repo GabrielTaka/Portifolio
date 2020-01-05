@@ -1,4 +1,4 @@
-# Freelancer Theme for Vuetify
+# Portifolio made with Vuetify
 
 ## Project setup
 ```
@@ -7,19 +7,15 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+yarn run serve - run in port 8080 
+or
+node server.js - run in port 5000
 ```
 
 ### Compiles and minifies for production
 ```
 yarn run build
 ```
-
-### Run your tests
-```
-yarn run test
-```
-
 ### Lints and fixes files
 ```
 yarn run lint
