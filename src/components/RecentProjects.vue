@@ -7,22 +7,41 @@
       <v-flex
         xs12
         md6
+        text-xs-center
+        pa-5
+      >
+        
+         
+        <base-heading>Recent Projects!</base-heading>
+        <base-text class="text-justify">
+          Having participated in several business projects, I highlight the development of a
+          cryptocurrency exchange, works planning system, invoice management system between
+          other private projects.
+        </base-text>
+
+
+        <base-bubble-2
+          style="transform: rotate(180deg) translate(-100px, -15%)"
+        />
+
+      </v-flex>
+
+      <v-flex
+        xs12
+        md6
         primary
         text-xs-center
         pa-5
         white--text
       >
-        <base-bubble-1
-          style="transform: rotate(180deg) translateX(25%)"
-        />
+        
         <base-heading>
-          Recent Projects
+          Take a Look
         </base-heading>
 
         <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipi<br>
-          scin elit. Etiam vulputate augue vel felis gravida<br>
-          porta. Lorem ipsum dolor sit amet.
+          Some projects for you to access.
+
         </base-text>
 
         <v-card color="secondary">
@@ -47,15 +66,6 @@
             </v-layout>
           </v-container>
         </v-card>
-      </v-flex>
-      <v-flex
-        hidden-sm-and-down
-        md6
-      >
-        <v-img
-          :src="require('@/assets/recentprojects.png')"
-          height="100%"
-        />
       </v-flex>
     </v-layout>
   </section>

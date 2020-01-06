@@ -7,11 +7,12 @@
       <v-flex
         hidden-sm-and-down
         md6
+        class="background-grad"
       >
         <v-img
-          :src="require('@/assets/welcome.png')"
-          height="100vh"
-        />
+          :src="require('@/assets/portifolio-img.jpeg')"
+          class="style-avatar"
+        /> 
       </v-flex>
 
       <v-flex
@@ -35,19 +36,10 @@
             md6
           >
             <base-heading>Welcome!</base-heading>
-            <base-text>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.<br>
-              Lorem ipsum dolor sit amet, consectetur ad
-              ipiscin elit. Etiam vulputate augue vel felis gra
-              vida porta. Lorem ipsum dolor sit amet, cons
-              ectetur adipiscing elit.
+            <base-text class="text-justify">
+              Welcome, my name is Gabriel Takahashi and this is my online portfolio, below you can follow a brief 
+              description about me and my professional experience!
             </base-text>
-            <base-btn class="mt-4">
-              Learn More!
-            </base-btn>
           </v-flex>
         </v-layout>
 
@@ -58,3 +50,20 @@
     </v-layout>
   </section>
 </template>
+
+
+<style scoped>
+  .style-avatar {
+    width: 400px;
+    border-radius: 50%;
+    position: relative;
+    left: 15%;
+    top: 15%;
+  }
+
+  .background-grad {
+    background-image: linear-gradient(to bottom right, #b3d4fc, #000);
+  }
+</style>
+
+
