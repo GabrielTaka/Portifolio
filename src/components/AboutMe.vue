@@ -17,17 +17,14 @@
         </base-heading>
 
         <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consectetur adipi<br>
-          scin elit. Etiam vulputate augue vel felis gravida<br>
-          porta. Lorem ipsum dolor sit amet.
+          My name is Gabriel Frederico Takahashi Vargas, I have a degree in System Analysis and Development from Fatec Jessen Vidal - SJC, I work with full-stack web development and apps for about 2 years. 
         </base-text>
 
         <base-subheading class="info--text">
           Skills
         </base-subheading>
         <base-text class="mb-5">
-          Lorem ipsum dolor sit amet, consecte tur adipi scin e<br>
-          lit. Etiam vulputate augu e vel felis gravida porta.
+          Below is a chart ranking my skills as a software developer.
         </base-text>
 
         <v-alert
@@ -76,17 +73,21 @@ export default {
   data: () => ({
     skills: [
       {
-        name: 'Web Design',
+        name: 'Web Development',
         value: 100
       },
       {
-        name: 'Web Development',
-        value: 75
+        name: 'Apps',
+        value: 80
       },
       {
         name: 'Web Support',
-        value: 90
-      }
+        value: 75
+      },
+      {
+        name: 'Web Design',
+        value: 50
+      },
     ]
   })
 }

@@ -51,18 +51,27 @@
           >
             <v-layout wrap>
               <v-flex
-                v-for="project in projects"
-                :key="project"
                 xs12
                 md6
               >
-                <a href="#">
+                <a href="https://www.bitbase.com.br/#/" target="_blank">
                   <v-img
-                    :src="require(`@/assets/${project}.jpeg`)"
+                    :src="require(`@/assets/bitbase.png`)"
                     max-height="300"
                   />
                 </a>
               </v-flex>
+              <v-flex
+                xs12
+                md6
+              >
+                <a href="https://fechandociclo.com.br/#/" target="_blank">
+                  <v-img
+                    :src="require(`@/assets/fechando.png`)"
+                    max-height="300"
+                  />
+                </a>
+              </v-flex>   
             </v-layout>
           </v-container>
         </v-card>

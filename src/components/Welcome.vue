@@ -40,6 +40,16 @@
               Welcome, my name is Gabriel Takahashi and this is my online portfolio, below you can follow a brief 
               description about me and my professional experience!
             </base-text>
+            <v-btn 
+              class="info width-button"
+              href="https://api.whatsapp.com/send?l=pt_BR&phone=5501299619-1600"
+              target="_blank"
+            > 
+              Talk with me 
+              <v-icon class="ml-2" dark> mdi-whatsapp </v-icon>
+            </v-btn>
+            
+
           </v-flex>
         </v-layout>
 
@@ -63,6 +73,9 @@
 
   .background-grad {
     background-image: linear-gradient(to bottom right, #b3d4fc, #000);
+  }
+  .width-button {
+    width: 100%;
   }
 </style>
 

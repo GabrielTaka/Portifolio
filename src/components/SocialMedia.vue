@@ -7,6 +7,8 @@
       class="ma-2"
       :large="large"
       color="info"
+      :href="item.ref"
+      target="_blank"
     >
       <v-icon
         dark
@@ -28,24 +30,20 @@ export default {
   data: () => ({
     items: [
       {
-        name: 'Twitter',
-        icon: 'mdi-twitter'
+        name: 'Whatsapp',
+        icon: 'mdi-whatsapp',
+        ref: 'https://api.whatsapp.com/send?l=pt_BR&phone=5501299619-1600'
+
       },
       {
-        name: 'Instagram',
-        icon: 'mdi-instagram'
+        name: 'Linkdedin',
+        icon: 'mdi-linkedin',
+        ref: 'https://www.linkedin.com/in/gabriel-takahashi-754802152/'
       },
       {
-        name: 'Facebook',
-        icon: 'mdi-facebook'
-      },
-      {
-        name: 'Email',
-        icon: 'mdi-email'
-      },
-      {
-        name: 'Phone',
-        icon: 'mdi-phone'
+        name: 'Github',
+        icon: 'mdi-github-circle',
+        ref: 'https://github.com/GabrielTaka'
       }
     ]
   })

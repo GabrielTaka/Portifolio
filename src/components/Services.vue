@@ -34,8 +34,7 @@
             </base-heading>
 
             <base-text class="mb-5">
-              Curabitur venenatis tortor erat, quis laoreet nis<br>
-              lobortis eget. Fusce tempor aucto.
+                Check out a brief description of the services provided.
             </base-text>
           </v-flex>
           <v-flex
@@ -78,22 +77,22 @@ export default {
       {
         name: 'Research',
         icon: 'mdi-clipboard-text-outline',
-        blurb: 'Curabitur et nisi semper,<br> pellent e sque '
+        blurb: 'Researcher and technology enthusiast.'
       },
       {
         name: 'Design',
         icon: 'mdi-pencil-outline',
-        blurb: 'Curabitur et nisi semper, <br>pellent.'
+        blurb: 'Layout Customization.'
       },
       {
         name: 'Development',
         icon: 'mdi-settings-outline',
-        blurb: 'Curabitur et nisi semper, <br>pellent.'
+        blurb: 'Web and app development.'
       },
       {
         name: 'Support',
         icon: 'mdi-account',
-        blurb: 'Curabitur et nisi semper, <br>pellent.'
+        blurb: 'Support for system users.'
       }
     ]
   })
