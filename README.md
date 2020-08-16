@@ -1,6 +1,9 @@
 # Portifolio made with Vuetify
 
-![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+<center>
+  ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+</center>
+
 
 
 ## Project setup
