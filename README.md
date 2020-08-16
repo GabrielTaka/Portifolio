@@ -1,5 +1,8 @@
 # Portifolio made with Vuetify
 
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+
+
 ## Project setup
 ```
 yarn install
