@@ -1,8 +1,10 @@
 # Portifolio made with Vuetify
 
-<center>
-  ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
-</center>
+## Take a look at the application
+
+
+  ![Alt Text](https://media.giphy.com/media/Wn6G66HgKwGGdrAaai/giphy.gif)
+
 
 
 
